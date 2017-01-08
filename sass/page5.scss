@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import "./global.scss";
+
+.widget {
+	display: block;
+	// margin-top: 13px;
+	padding: 10px 0;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	@extend .clearfix;
+
+	&:first-child {
+		margin-top: 13px;
+	}
+
+	.col {
+		float: left;
+		width: 35%;
+		text-align: center;
+		border-left: 1px solid #eee;
+		@extend %IEBox;
+
+		&:first-child {
+			border-left: none;
+		}
+
+
+		&.col-left {
+			width: 30%;
+			padding-top: 9px;
+		}
+
+		&.edit {
+			position: relative;
+
+			&:before {
+				content: '';
+				position: absolute;
+				right: 10px;
+				bottom: 1px;
+				@include bgimg('../img/icon-edit.png');
+				@include bgsize(16px, 16px);
+				
+			}
+
+		}
+
+		a {
+			display: block;
+		}
+	}
+
+	.key {
+		color: #999;
+		margin-bottom: 2px;
+	}
+
+	.value {
+		word-wrap: nowrap;
+		word-break: break-all;
+	}
+
+
+
+}

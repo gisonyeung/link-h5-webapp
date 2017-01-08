@@ -1,0 +1,106 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif; }
+
+body {
+  background-color: #f6f6f6; }
+
+input, select {
+  outline: medium; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.clearfix {
+  *zoom: 1; }
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.info-panel .padding-wrap {
+  padding-bottom: 15px; }
+.info-panel .title {
+  font-size: 18px; }
+.info-panel .subtitle {
+  margin-top: 8px; }
+.info-panel .subtitle h3 {
+  font-weight: 400;
+  font-size: 14px; }
+.info-panel .item {
+  float: left;
+  width: 100%;
+  margin-top: 8px; }
+.info-panel .item .key {
+  font-size: 12px;
+  font-weight: 200;
+  opacity: 0.8; }
+.info-panel .item .value {
+  font-size: 13px;
+  font-weight: 400;
+  word-wrap: nowrap;
+  word-break: break-all; }
+.info-panel .item.half-inline {
+  width: 49%;
+  margin-right: 1%; }
+
+#main {
+  margin-top: 257px; }
+#main .widget {
+  display: block;
+  padding: 7px;
+  padding-left: 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #f4f4f4; }
+#main .widget .title {
+  padding-right: 23px;
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  word-wrap: break-word;
+  word-break: break-all; }
+#main .widget .text {
+  padding-right: 23px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  word-wrap: break-word;
+  word-break: break-all;
+  line-height: 18px; }
+#main .widget.has-photo .photo {
+  float: left;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #eee; }
+#main .widget.has-photo .content {
+  margin-left: 64px; }
+#main .widget .icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  margin-top: -15px; }
+#main .widget .icon-pending {
+  display: inline-block;
+  height: 0;
+  width: 18px;
+  padding-top: 30px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 18px, 30px !important;
+  background: url("../img/icon-pending.png") transparent no-repeat center center; }
+#main .widget .icon-done {
+  display: inline-block;
+  height: 0;
+  width: 18px;
+  padding-top: 30px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 18px, 30px !important;
+  background: url("../img/icon-done.png") transparent no-repeat center center; }
+#main .widget.has-status {
+  padding-left: 51px; }
+
+/*# sourceMappingURL=page3.css.map */

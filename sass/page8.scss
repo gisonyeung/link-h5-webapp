@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import "./global.scss";
+
+#main {
+
+	margin-top: $headerH;
+	
+	.title {
+		padding: 25px 25px;
+		font-size: 15px;
+		color: #666;
+		font-weight: 400;
+	}
+
+	.content {	
+
+		.row {
+			padding: 15px 35px 15px 25px;
+			font-size: 15px;
+			border-bottom: 1px solid #f6f6f6;
+			background-color: #fff;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+
+			.key {
+				display: block;
+				margin-bottom: 5px;
+				width: 100%;
+				color: #333;
+			}
+
+			.value {
+				margin-left: 75px;
+				text-align: left;
+				color: #888;
+			}
+
+			.value-input {
+				width: 100%;
+				font-size: 15px;
+				font-family: inherit;
+				color: #888;
+				text-align: left;
+				border: 0;
+				background-color: transparent;
+			}
+
+
+		}
+
+		.segment {
+			height: 25px;
+		}
+
+	}
+
+	
+	.pen {
+		position: relative;
+
+		&:before { 
+			$arrowH: 22px;
+			content: '';
+			position: absolute;
+			right: 10px;
+			bottom: 11px;
+			margin-top: -($arrowH / 2 - 2px);
+			@include bgimg('../img/icon-edit.png');
+			@include bgsize($arrowH, $arrowH);
+			
+		}
+
+	}
+
+
+
+
+
+}
+

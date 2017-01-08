@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import "./global.scss";
+
+
+.info-panel {
+
+
+	.padding-wrap {
+		padding-bottom: 15px;
+	}
+
+
+	.title {
+		font-size: 18px;
+	}
+
+	.subtitle {
+		margin-top: 8px;
+
+		h3 {
+			font-weight: 400;
+			font-size: 14px;
+		}
+
+	}
+
+	.detail {
+
+	}
+
+	.item {
+		float: left;
+		width: 100%;
+		margin-top: 8px;
+
+		.key {
+			 font-size: 12px;
+			 font-weight: 200;
+			 opacity: 0.8;
+		}
+
+		.value {
+			font-size: 13px;
+			font-weight: 400;
+			word-wrap: nowrap;
+			word-break: break-all;
+		}
+
+		&.half-inline {
+			width: 49%;
+			margin-right: 1%;
+		}
+
+		&.three-inline {
+			width: 32%;
+			margin-right: 1%;
+		}
+
+		
+
+	}
+
+}
+
+
+#main {
+
+	margin-top: 260px + $headerH;
+
+	.widget {
+		position: relative;
+		display: block;
+		padding: 13px 23px;
+		font-size: 15px;
+		color: #777;
+		background-color: #fff;
+		border-bottom: 1px solid #f4f4f4;
+
+
+		$serialW: 45px;
+
+		.serial {
+			font-size: 16px;
+			float: left;
+			width: $serialW;
+		}
+
+		.title {
+			margin-left: $serialW + 5px;
+			word-wrap: break-word;
+			word-break: break-all;
+		}
+
+		$iconL: 25px;
+
+		.icon {
+			
+			position: absolute;
+			left: $iconL;
+			top: 50%;
+			margin-top: -9px;
+
+
+			&-pending {
+				@include bgsize(18px, 18px);
+				background: url('../img/icon-pending.png') transparent no-repeat center center;
+			}
+
+			&-done {
+				@include bgsize(18px, 18px);
+				background: url('../img/icon-done.png') transparent no-repeat center center;
+			}
+
+		}
+
+		&.has-status {
+			
+			padding-left: 2 * $iconL + 5px;
+
+		}
+
+
+	}
+
+}

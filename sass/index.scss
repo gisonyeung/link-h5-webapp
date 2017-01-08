@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import "./global.scss";
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif; }
+
+input, select {
+  outline: medium; }
+
+body {
+  position: relative;
+  background: url("../img/background.jpg") #013880 no-repeat center top;
+  background-size: cover; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.band {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px; }
+.band h2 {
+  display: inline-block;
+  height: 0;
+  width: 220px;
+  padding-top: 100px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../img/logo.png") transparent no-repeat center top;
+  display: block;
+  margin: 0 auto;
+  background-size: 100% auto; }
+.band h4 {
+  display: inline-block;
+  color: #fff;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  opacity: 0.95;
+  margin: 0 auto;
+  margin-top: 22px; }
+
+.content {
+  width: 240px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.content .item {
+  display: block;
+  // display: inline-block;
+  position: relative;
+  // float: left;
+  // width: 49%;
+  padding: 10px 0;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.content .item .unread {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f44336;
+  border-radius: 100%;
+  top: 20px;
+  right: 45px;
+}
+// .content .item:nth-child(odd) {
+//   border-right: 1px solid rgba(255, 255, 255, 0.5);
+// }
+.content .item:last-child {
+  border-bottom: 0;
+}
+
+$circleSize: 70px;
+
+.content .circle {
+  display: inline-block;
+  width: $circleSize;
+  height: $circleSize;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content .circleNo {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  overflow: hidden;
+ 
+}
+.content .item .icon {
+  display: inline-block;
+  height: 0;
+  width: $circleSize / 2;
+  padding-top: $circleSize;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.content .item .icon.icon-menu1 {
+  background: url("../img/menu-1.png") transparent no-repeat center;
+  background-size: 100% auto; 
+}
+.content .item .icon.icon-menu2 {
+  background: url("../img/menu-2.png") transparent no-repeat center;
+  background-size: 100% auto; 
+}
+.content .item .icon.icon-menu3 {
+  background: url("../img/menu-3.png") transparent no-repeat center;
+  background-size: 100% auto;
+  top: 14px; 
+}
+.content .item .icon.icon-menu4 {
+  background: url("../img/menu-4.png") transparent no-repeat center;
+  background-size: 100% auto;
+  top: 14px; 
+}
+.content .item .icon.icon-menu5 {
+  background: url("../img/menu-5.png") transparent no-repeat center;
+  background-size: 100% auto;
+  top: 14px; 
+}
+.content .item .icon.icon-menu-password {
+  background: url("../img/icon-menu-password.png") transparent no-repeat center;
+  background-size: 100% auto;
+  top: 14px; 
+}
+
+
+.content .item .icon-arrow {
+  display: inline-block;
+  height: 0;
+  width: 15px;
+  padding-top: 57px;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  background: url("../img/right_arrow.png") transparent no-repeat center;
+  background-size: 100% auto; }
+.content .item .text {
+  padding-left: 72px;
+  padding-right: 60px;
+  color: #fff; }
+.content .item .title {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 200;
+}
+.content .item .text .details {
+  font-size: 16px; }
+
+.copyright {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.5;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

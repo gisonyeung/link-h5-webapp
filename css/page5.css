@@ -1,0 +1,71 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif; }
+
+body {
+  background-color: #f6f6f6; }
+
+input, select {
+  outline: medium; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.widget .col {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.clearfix, .widget {
+  *zoom: 1; }
+.clearfix:after, .widget:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.widget {
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-bottom: 1px solid #eee; }
+.widget:first-child {
+  margin-top: 13px; }
+.widget .col {
+  float: left;
+  width: 35%;
+  text-align: center;
+  border-left: 1px solid #eee; }
+.widget .col:first-child {
+  border-left: none; }
+.widget .col.col-left {
+  width: 30%;
+  padding-top: 9px; }
+.widget .col.edit {
+  position: relative; }
+.widget .col.edit:before {
+  content: '';
+  position: absolute;
+  right: 10px;
+  bottom: 1px;
+  background: url("../img/icon-edit.png") transparent no-repeat center top;
+  display: inline-block;
+  height: 0;
+  width: 16px;
+  padding-top: 16px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 16px, 16px !important; }
+.widget .col a {
+  display: block; }
+.widget .key {
+  color: #999;
+  margin-bottom: 2px; }
+.widget .value {
+  word-wrap: nowrap;
+  word-break: break-all; }
+
+/*# sourceMappingURL=page5.css.map */

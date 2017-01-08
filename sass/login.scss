@@ -1,0 +1,228 @@
+@charset "utf-8";
+@import "./global.scss";
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif; }
+
+html,body { height:100%; }
+
+input, select {
+  outline: medium; }
+
+body {
+  background: url("../img/background.jpg") #013880 repeat center top;
+  background-size: cover; }
+
+.band {
+  text-align: center;
+  padding-top: 75px; }
+.band h2 {
+  display: inline-block;
+  height: 0;
+  width: 220px;
+  padding-top: 100px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../img/logo.png") transparent no-repeat center top;
+  display: block;
+  margin: 0 auto;
+  background-size: 100% auto; }
+.band h4 {
+  display: inline-block;
+  color: #fff;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  opacity: 0.95;
+  // height: 0;
+  // width: 40px;
+  // padding-top: 23px;
+  // text-indent: -9999px;
+  // overflow: hidden;
+  // background: url("../img/biq.png") transparent no-repeat center top;
+  // display: block;
+  margin: 0 auto;
+  margin-top: 22px;
+  // background-size: 100% auto; 
+}
+
+.content {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 35px;
+  z-index: 2;
+  margin-bottom: 60px; }
+
+.loginBox {
+  padding: 0 10px;
+  border-radius: 6px; }
+.loginBox .item {
+  position: relative;
+  padding: 20px 0 20px 45px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+.loginBox .item .icon {
+  display: inline-block;
+  height: 0;
+  width: 17px;
+  padding-top: 49px;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.loginBox .item .icon.icon-user {
+  background: url("../img/user.png") transparent no-repeat center;
+  background-size: 100% auto; }
+.loginBox .item .icon.icon-key {
+  background: url("../img/key.png") transparent no-repeat center;
+  background-size: 100% auto; }
+.loginBox .item .icon.icon-earth {
+  background: url("../img/earth.png") transparent no-repeat center;
+  background-size: 100% auto; }
+.loginBox .item #language {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  opacity: 0;
+  z-index: 10; }
+.loginBox .item#languageBtn:hover {
+  background-color: #f8f8f8; }
+.loginBox .form-text {
+  display: block;
+  width: 100%;
+  padding-left: 15px;
+  height: 19px;
+  line-height: 19px;
+  border: none;
+  font-size: 14px; 
+  background-color: transparent;
+  color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-left: 1px solid transparent;
+}
+.loginBox .form-text:focus {
+  border-left-color: rgba(255, 255, 255, 0.5)
+}
+
+.loginBox .form-text::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7); }
+.loginBox .form-text:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7); }
+.loginBox .form-text::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7); }
+.loginBox .form-text:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7); }
+.loginBox .form-text.default {
+  color: rgba(255, 255, 255, 0.7); }
+
+#loginBtn {
+  margin-top: 45px;
+  width: 100%;
+  border: none;
+  padding: 12px 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px; 
+  -webkit-appearance : none; }
+
+.copyright {
+  // display: none;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.5;
+  z-index: 1;
+  text-align: center; }
+
+.code-btn {
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  display: inline-block;
+  font-size: 14px;
+  // height: 30px;
+  // line-height: 30px;
+  padding: 3px 10px 4px;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 4px;
+   -webkit-appearance : none;
+}
+
+.code-btn.disabled {
+  background: #999;
+  cursor: disabled;
+}
+
+
+/*# sourceMappingURL=login.css.map */
+
+
+// .animate {
+
+//   padding-top: 5px;
+
+// }
+
+// .windmill {
+//   position: relative;
+//   display: inline-block;
+//   opacity: 0.85;
+// } 
+
+
+
+// .windmill .leaf {
+//   width: 100px;
+//   position: absolute;
+//   top: -50px;
+//   left: -43px;
+//   -webkit-animation: circle 3.5s infinite linear;/*匀速 循环*/
+//   -moz-animation: circle 3.5s infinite linear;/*匀速 循环*/
+//   -ms-animation: circle 3.5s infinite linear;/*匀速 循环*/
+  
+// }
+
+// .windmill .stick {
+//   height: 85px;
+// }
+
+// .windmill.big {
+//   margin-left: 60px;
+//   z-index: 2;
+// }
+
+// .windmill.small {
+//   margin-left: 25px;
+//   z-index: 3;
+// }
+
+// .windmill.small .leaf {
+//   width: 70px;
+//   position: absolute;
+//   top: -35px;
+//   left: -29px;
+// }
+
+// .windmill.small .stick {
+//   height: 60px;
+// }
+
+
+
+// @-webkit-keyframes circle{
+//   0%{ transform:rotate(0deg); }
+//   100%{ transform:rotate(360deg); }
+// }

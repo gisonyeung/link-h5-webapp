@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fill In Reimbursement</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/mobiscroll.custom-2.6.2.min.css">
+	<link rel="stylesheet" href="./css/page7.css">
+	<script src="./js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<div id="menu">
+		<div class="menu-section">
+			<h3 class="title">Menu</h3>
+			<ul class="list">
+				<li>
+					<a href="./index.html"><span class="icon icon-home"></span>Home</a>
+				</li>
+				<li class="active">
+					<a href="./fill1.html"><span class="icon icon-menu2"></span>Time / Reimbursement</a>
+				</li>
+				<li>
+					<a href="./history1.html"><span class="icon icon-menu1"></span>Historic Records</a>
+				</li>
+				<li>
+					<a href="./editPassword.html"><span class="icon icon-password"></span>Modify Password</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="panel">
+		<div id="header">
+			<a href="javascript:;" src="img/icon-back.png" onclick="history.go(-1)" class=" icon icon-back"></a>
+			<h1>Fill In Reimbursement</h1>
+			<input type="submit" class="submit-btn" value="Submit">
+		</div>
+		<div id="main">
+			<div class="top-panel">
+				<h2 class="title">Project 1</h2>
+				<div class="subtitle">
+					<h3>2016-12-21</h3>
+				</div>
+				<div class="detail clearfix">
+					<div class="item half-inline">
+						<p class="key">Total Hours: <span>70</span></p>
+					</div>
+					<div class="item half-inline">
+						<p class="key">Total Expense: <span>88000</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="edit-panel">
+				<div class="row">
+					<div class="widget half-inline down-arrow text-select">
+						<p class="label">Expense</p>
+						<input type="text" class="value" placeholder="Please Input Expense">
+					</div>
+					<div class="widget half-inline down-arrow text-select">
+						<p class="label">Expense Type</p>
+						<select class="hidden-select">
+							<option value="">Please Select Expense Type</option>
+							<option value="Type1">Type1</option>
+							<option value="Type2">Type2</option>
+							<option value="Type3">Type3</option>
+							<option value="Type4">Type4</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="widget no-border">
+						<p class="label">Remark</p>
+						<p class="value">
+							<textarea rows="3"></textarea>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/slideout.min.js"></script>
+	<script src="./js/slide-common.js"></script>
+	<script src="./js/mobiscroll.custom-2.6.2.min.js"></script>
+	<script src="./js/select-init.js"></script>
+</body>
+</html>
